@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38920DF192BDEEA006F60E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38920DE192BDEEA006F60E4 /* Foundation.framework */; };
+		F38920E1192BDEEA006F60E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38920E0192BDEEA006F60E4 /* CoreGraphics.framework */; };
+		F38920E3192BDEEA006F60E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38920E2192BDEEA006F60E4 /* UIKit.framework */; };
+		F38920E9192BDEEA006F60E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F38920E7192BDEEA006F60E4 /* InfoPlist.strings */; };
+		F38920EB192BDEEA006F60E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F38920EA192BDEEA006F60E4 /* main.m */; };
+		F38920EF192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38920EE192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.m */; };
+		F38920F2192BDEEA006F60E4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38920F0192BDEEA006F60E4 /* Main_iPhone.storyboard */; };
+		F38920F5192BDEEA006F60E4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38920F3192BDEEA006F60E4 /* Main_iPad.storyboard */; };
+		F38920F8192BDEEA006F60E4 /* alexandru_cioceaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38920F7192BDEEA006F60E4 /* alexandru_cioceaViewController.m */; };
+		F38920FA192BDEEA006F60E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38920F9192BDEEA006F60E4 /* Images.xcassets */; };
+		F3892101192BDEEA006F60E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3892100192BDEEA006F60E4 /* XCTest.framework */; };
+		F3892102192BDEEA006F60E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38920DE192BDEEA006F60E4 /* Foundation.framework */; };
+		F3892103192BDEEA006F60E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38920E2192BDEEA006F60E4 /* UIKit.framework */; };
+		F389210B192BDEEA006F60E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3892109192BDEEA006F60E4 /* InfoPlist.strings */; };
+		F389210D192BDEEA006F60E4 /* xoyoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F389210C192BDEEA006F60E4 /* xoyoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3892104192BDEEA006F60E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38920D3192BDEEA006F60E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38920DA192BDEEA006F60E4;
+			remoteInfo = xoyo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F38920DB192BDEEA006F60E4 /* xoyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xoyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38920DE192BDEEA006F60E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F38920E0192BDEEA006F60E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F38920E2192BDEEA006F60E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F38920E6192BDEEA006F60E4 /* xoyo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xoyo-Info.plist"; sourceTree = "<group>"; };
+		F38920E8192BDEEA006F60E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F38920EA192BDEEA006F60E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F38920EC192BDEEA006F60E4 /* xoyo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xoyo-Prefix.pch"; sourceTree = "<group>"; };
+		F38920ED192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alexandru_cioceaAppDelegate.h; sourceTree = "<group>"; };
+		F38920EE192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexandru_cioceaAppDelegate.m; sourceTree = "<group>"; };
+		F38920F1192BDEEA006F60E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F38920F4192BDEEA006F60E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F38920F6192BDEEA006F60E4 /* alexandru_cioceaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alexandru_cioceaViewController.h; sourceTree = "<group>"; };
+		F38920F7192BDEEA006F60E4 /* alexandru_cioceaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexandru_cioceaViewController.m; sourceTree = "<group>"; };
+		F38920F9192BDEEA006F60E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F38920FF192BDEEA006F60E4 /* xoyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xoyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3892100192BDEEA006F60E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3892108192BDEEA006F60E4 /* xoyoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xoyoTests-Info.plist"; sourceTree = "<group>"; };
+		F389210A192BDEEA006F60E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F389210C192BDEEA006F60E4 /* xoyoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xoyoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38920D8192BDEEA006F60E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38920E1192BDEEA006F60E4 /* CoreGraphics.framework in Frameworks */,
+				F38920E3192BDEEA006F60E4 /* UIKit.framework in Frameworks */,
+				F38920DF192BDEEA006F60E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38920FC192BDEEA006F60E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3892101192BDEEA006F60E4 /* XCTest.framework in Frameworks */,
+				F3892103192BDEEA006F60E4 /* UIKit.framework in Frameworks */,
+				F3892102192BDEEA006F60E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38920D2192BDEEA006F60E4 = {
+			isa = PBXGroup;
+			children = (
+				F38920E4192BDEEA006F60E4 /* xoyo */,
+				F3892106192BDEEA006F60E4 /* xoyoTests */,
+				F38920DD192BDEEA006F60E4 /* Frameworks */,
+				F38920DC192BDEEA006F60E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38920DC192BDEEA006F60E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38920DB192BDEEA006F60E4 /* xoyo.app */,
+				F38920FF192BDEEA006F60E4 /* xoyoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38920DD192BDEEA006F60E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F38920DE192BDEEA006F60E4 /* Foundation.framework */,
+				F38920E0192BDEEA006F60E4 /* CoreGraphics.framework */,
+				F38920E2192BDEEA006F60E4 /* UIKit.framework */,
+				F3892100192BDEEA006F60E4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F38920E4192BDEEA006F60E4 /* xoyo */ = {
+			isa = PBXGroup;
+			children = (
+				F38920ED192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.h */,
+				F38920EE192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.m */,
+				F38920F0192BDEEA006F60E4 /* Main_iPhone.storyboard */,
+				F38920F3192BDEEA006F60E4 /* Main_iPad.storyboard */,
+				F38920F6192BDEEA006F60E4 /* alexandru_cioceaViewController.h */,
+				F38920F7192BDEEA006F60E4 /* alexandru_cioceaViewController.m */,
+				F38920F9192BDEEA006F60E4 /* Images.xcassets */,
+				F38920E5192BDEEA006F60E4 /* Supporting Files */,
+			);
+			path = xoyo;
+			sourceTree = "<group>";
+		};
+		F38920E5192BDEEA006F60E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38920E6192BDEEA006F60E4 /* xoyo-Info.plist */,
+				F38920E7192BDEEA006F60E4 /* InfoPlist.strings */,
+				F38920EA192BDEEA006F60E4 /* main.m */,
+				F38920EC192BDEEA006F60E4 /* xoyo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3892106192BDEEA006F60E4 /* xoyoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F389210C192BDEEA006F60E4 /* xoyoTests.m */,
+				F3892107192BDEEA006F60E4 /* Supporting Files */,
+			);
+			path = xoyoTests;
+			sourceTree = "<group>";
+		};
+		F3892107192BDEEA006F60E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3892108192BDEEA006F60E4 /* xoyoTests-Info.plist */,
+				F3892109192BDEEA006F60E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38920DA192BDEEA006F60E4 /* xoyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3892110192BDEEA006F60E4 /* Build configuration list for PBXNativeTarget "xoyo" */;
+			buildPhases = (
+				F38920D7192BDEEA006F60E4 /* Sources */,
+				F38920D8192BDEEA006F60E4 /* Frameworks */,
+				F38920D9192BDEEA006F60E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xoyo;
+			productName = xoyo;
+			productReference = F38920DB192BDEEA006F60E4 /* xoyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38920FE192BDEEA006F60E4 /* xoyoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3892113192BDEEA006F60E4 /* Build configuration list for PBXNativeTarget "xoyoTests" */;
+			buildPhases = (
+				F38920FB192BDEEA006F60E4 /* Sources */,
+				F38920FC192BDEEA006F60E4 /* Frameworks */,
+				F38920FD192BDEEA006F60E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3892105192BDEEA006F60E4 /* PBXTargetDependency */,
+			);
+			name = xoyoTests;
+			productName = xoyoTests;
+			productReference = F38920FF192BDEEA006F60E4 /* xoyoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38920D3192BDEEA006F60E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = alexandru.ciocea;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cococea;
+				TargetAttributes = {
+					F38920FE192BDEEA006F60E4 = {
+						TestTargetID = F38920DA192BDEEA006F60E4;
+					};
+				};
+			};
+			buildConfigurationList = F38920D6192BDEEA006F60E4 /* Build configuration list for PBXProject "xoyo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38920D2192BDEEA006F60E4;
+			productRefGroup = F38920DC192BDEEA006F60E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38920DA192BDEEA006F60E4 /* xoyo */,
+				F38920FE192BDEEA006F60E4 /* xoyoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38920D9192BDEEA006F60E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38920F5192BDEEA006F60E4 /* Main_iPad.storyboard in Resources */,
+				F38920FA192BDEEA006F60E4 /* Images.xcassets in Resources */,
+				F38920F2192BDEEA006F60E4 /* Main_iPhone.storyboard in Resources */,
+				F38920E9192BDEEA006F60E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38920FD192BDEEA006F60E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F389210B192BDEEA006F60E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38920D7192BDEEA006F60E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38920EB192BDEEA006F60E4 /* main.m in Sources */,
+				F38920EF192BDEEA006F60E4 /* alexandru_cioceaAppDelegate.m in Sources */,
+				F38920F8192BDEEA006F60E4 /* alexandru_cioceaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38920FB192BDEEA006F60E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F389210D192BDEEA006F60E4 /* xoyoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3892105192BDEEA006F60E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38920DA192BDEEA006F60E4 /* xoyo */;
+			targetProxy = F3892104192BDEEA006F60E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38920E7192BDEEA006F60E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38920E8192BDEEA006F60E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F38920F0192BDEEA006F60E4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38920F1192BDEEA006F60E4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F38920F3192BDEEA006F60E4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38920F4192BDEEA006F60E4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F3892109192BDEEA006F60E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F389210A192BDEEA006F60E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F389210E192BDEEA006F60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F389210F192BDEEA006F60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3892111192BDEEA006F60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xoyo/xoyo-Prefix.pch";
+				INFOPLIST_FILE = "xoyo/xoyo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3892112192BDEEA006F60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xoyo/xoyo-Prefix.pch";
+				INFOPLIST_FILE = "xoyo/xoyo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3892114192BDEEA006F60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/xoyo.app/xoyo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xoyo/xoyo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "xoyoTests/xoyoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3892115192BDEEA006F60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/xoyo.app/xoyo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xoyo/xoyo-Prefix.pch";
+				INFOPLIST_FILE = "xoyoTests/xoyoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38920D6192BDEEA006F60E4 /* Build configuration list for PBXProject "xoyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F389210E192BDEEA006F60E4 /* Debug */,
+				F389210F192BDEEA006F60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3892110192BDEEA006F60E4 /* Build configuration list for PBXNativeTarget "xoyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3892111192BDEEA006F60E4 /* Debug */,
+				F3892112192BDEEA006F60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3892113192BDEEA006F60E4 /* Build configuration list for PBXNativeTarget "xoyoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3892114192BDEEA006F60E4 /* Debug */,
+				F3892115192BDEEA006F60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38920D3192BDEEA006F60E4 /* Project object */;
+}
