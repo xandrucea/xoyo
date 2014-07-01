@@ -1,14 +1,14 @@
 //
-//  alexandru_cioceaAppDelegate.m
+//  Appdelegate.m
 //  xoyo
 //
 //  Created by Alexandru Ciocea on 20.05.14.
 //  Copyright (c) 2014 cococea. All rights reserved.
 //
 
-#import "alexandru_cioceaAppDelegate.h"
+#import "Appdelegate.h"
 
-@implementation alexandru_cioceaAppDelegate
+@implementation Appdelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -1,5 +1,5 @@
 //
-//  alexandru_cioceaViewController.h
+//  Appdelegate.h
 //  xoyo
 //
 //  Created by Alexandru Ciocea on 20.05.14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface alexandru_cioceaViewController : UIViewController
+@interface Appdelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
